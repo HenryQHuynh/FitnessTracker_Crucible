@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { getAllActivities } from "../api";
 import { CreateActivity } from "./";
-import '../css/Body.css';
+import "../css/Activities.css";
 
 const Activities = ({ isLoggedIn, token }) => {
   const [activities, setActivities] = useState([]);

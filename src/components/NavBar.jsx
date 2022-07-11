@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import '../css/Navbar.css';
-import '../css/Body.css';
 
 // displayed on the main component.
 const NavBar = ({ isLoggedIn, setIsLoggedIn, setToken, setUser }) => {

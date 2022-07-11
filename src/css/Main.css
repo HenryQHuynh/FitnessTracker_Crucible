@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Body */
 body {
     margin: 0;
     padding: 0;
@@ -25,20 +35,21 @@ body {
   button {
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     color: #f9f3ee;
-    background-color: rgb(79, 47, 47);
+    background-color: rgb(139, 61, 61);
     margin: 10px;
   }
   
   label {
-    color: rgb(79, 47, 47);
+    color: rgb(139, 61, 61);
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     margin: 10px;
   }
+
   /* Header */
   header {
     background-color: #f9f3ee;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-    color: rgb(79, 47, 47);
+    color: rgb(139, 61, 61);
     width: 100vw;
   }
 

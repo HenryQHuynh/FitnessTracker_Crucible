@@ -2,6 +2,18 @@
     display: flex;
     width: 100%;
   }
+
+  .title-container h1 {
+    font-size: 50px;
+  }
+
+  .title-container a {
+    display: flex;
+    max-width: fit-content;
+    max-height: fit-content;
+    
+  }
+
   .main-title {
     margin: 0;
     padding: 10px;

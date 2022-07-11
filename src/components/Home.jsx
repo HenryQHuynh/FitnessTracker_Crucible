@@ -1,5 +1,6 @@
 import React from "react";
 import crucible2 from "../images/crucible2.jpg";
+import "../css/Main.css";
 
 const Home = () => {
   return (

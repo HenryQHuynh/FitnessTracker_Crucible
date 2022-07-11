@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { getPublicRoutines } from "../api";
+import "../css/Routines.css";
 
 const Routines = () => {
   const [routines, setRoutines] = useState([]);
@@ -14,6 +15,8 @@ const Routines = () => {
 
   return (
     <div className="routines-page">
+    <h2 className="first" >Routines</h2>
+    <p className="activity-login">Log in to view each Routine</p>
       {/* mapping over routines array to produce single routine cards */}
       {routines.map((routine, i) => {
         return (

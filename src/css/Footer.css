@@ -3,10 +3,11 @@ footer {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  border-top: solid #032A5D;
+  text-align: center;
+  border-top: solid #250101;
   height: 10vh;
   padding: 5px;
-  color: #032A5D;
+  color: #1c0101;
   margin-bottom: 0;
 }
 

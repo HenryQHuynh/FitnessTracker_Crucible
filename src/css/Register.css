@@ -1,0 +1,18 @@
+.registration-page {
+  background-color: #f9f3ee;
+  color: rgb(34, 1, 1);
+  padding: 2px;
+  padding-left: 10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  justify-content: space-between;
+}
+
+.form-container form {
+  justify-items: flex-end;
+  display: flex;
+  flex-direction: row;
+}
+
+.form-container form label {
+  margin: 10px;
+}

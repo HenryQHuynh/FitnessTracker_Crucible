@@ -48,6 +48,7 @@ const CreateRoutine = ({
       <input
         type="text"
         placeholder="Goal"
+        rows="3"
         value={goal}
         onChange={(e) => {
           e.preventDefault();

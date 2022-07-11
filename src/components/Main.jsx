@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Switch, Route } from "react-router-dom";
-import "../css/Body.css";
+import "../css/Main.css";
 import "../css/Title.css";
 import CrucibleD2 from "../images/CrucibleD2.jpeg";
 
@@ -46,7 +46,9 @@ const Main = () => {
       <header>
         <div className="title-container">
           <h1 className="main-title">Crucible Tracker</h1>
-          <span ><img className="crucibleIcon" src={CrucibleD2} alt="Guardians clashing" /></span>
+          <a href='https://crucible.report/' target='_blank' rel="noreferrer">
+          <img className="crucibleIcon" src={CrucibleD2} alt="Guardians clashing" />
+          </a>
           {/* Add a Span image here! */}
           {user.username ? <small>Logged in as: {user.username}</small> : null}
         </div>

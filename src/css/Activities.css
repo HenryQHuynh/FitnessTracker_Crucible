@@ -1,0 +1,19 @@
+.activities-page {
+    background-color: #f9f3ee;
+  }
+  
+  .activities-page h2 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: rgb(79, 47, 47);
+    margin: 10px;
+  }
+  
+  .activity-form {
+    margin: 20px;
+  }
+  
+  .activity-login {
+    color: rgb(79, 47, 47);
+    font-size: larger;
+    margin-left: 20px;
+  }
