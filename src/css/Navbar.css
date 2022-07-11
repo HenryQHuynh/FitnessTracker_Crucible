@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.navbar-container {
+    background-color: rgb(139, 61, 61);
+    padding: 10px;
+    font-size: 1.75rem;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .nav-item {
+    color: white;
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    /* font-family: Impact, 'Poppins', sans-serif; */
+  }
+
+  .nav-item:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+  }
+
+  /* .link-container {
+    background-color: white
+  } */

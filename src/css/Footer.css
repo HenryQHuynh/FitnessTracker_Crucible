@@ -1,0 +1,41 @@
+footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  border-top: solid #032A5D;
+  height: 10vh;
+  padding: 5px;
+  color: #032A5D;
+  margin-bottom: 0;
+}
+
+footer p {
+  margin: 5px;
+  margin-bottom: 0px;
+}
+
+footer h4 {
+  margin: 5px;
+  margin-bottom: 0px;
+}
+
+footer img {
+  border-radius: 50%;
+  
+  margin-bottom: 0px;
+  max-height: 45px;
+
+}
+
+#linkedIn {
+  max-height: 40px;
+  /* It was SLIGHTLY bigger than the other icons.... */
+}
+
+#shout {
+  margin-top: 0px;
+  font-size: 30px;
+  font-weight: bolder;
+  /* font-family: 'Press Start 2P', cursive; */
+}

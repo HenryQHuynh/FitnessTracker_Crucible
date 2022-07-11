@@ -1,0 +1,90 @@
+ 
+  /* Registration */
+  
+  .registration-page {
+    /* background-color: darkslateblue; */
+    color: white;
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    justify-content: space-between;
+  }
+  
+  /* Routines */
+  
+  .single-routine {
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+    height: 400px;
+    width: 25%;
+    margin: 10px;
+    color: rgb(79, 47, 47);
+    padding: 15px;
+    box-shadow: 10px 5px 5px rgb(79, 47, 47);
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    overflow-y: scroll;
+  }
+  
+  .single-routine h2 {
+    text-align: center;
+  }
+  
+  .myroutine-editform form {
+    display: flex;
+    flex-direction: column;
+  }
+  .myroutine-editform form label {
+    font-size: small;
+  }
+  .myroutine-editform form span {
+    margin-bottom: 2px;
+  }
+  
+  .my-routines-page {
+    color: rgb(79, 47, 47);
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    padding: 10px;
+  }
+  
+  .form-container form {
+    justify-items: flex-end;
+    display: flex;
+    flex-direction: row;
+  }
+  .form-container form label {
+    margin: 10px;
+  }
+  
+  .single-activity {
+    background-color: #f9f3ee;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    box-shadow: 10px 10px 5px rgb(79, 47, 47);
+    margin: 10px;
+    color: rgb(79, 47, 47);
+    padding: 10px;
+    vertical-align: top;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+  /* Activities */
+  .activities-page {
+    background-color: gray;
+  }
+  
+  .activities-page h2 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: rgb(79, 47, 47);
+    margin: 10px;
+  }
+  
+  .activity-form {
+    margin: 20px;
+  }
+  
+  .activity-login {
+    color: rgb(79, 47, 47);
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: larger;
+    margin-left: 20px;
+  }
