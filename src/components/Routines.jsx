@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import { getPublicRoutines } from "../api";
 import "../css/Routines.css";
 
+// Shown in Main.jsx
 const Routines = () => {
   const [routines, setRoutines] = useState([]);
-  // setting the routines array after the fetch is completed
   useEffect(() => {
     const getRoutines = async () => {
       const routinesArray = await getPublicRoutines();

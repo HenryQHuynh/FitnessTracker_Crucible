@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { createNewActivity } from "../api";
+
 // creates a new activity on the activities page
 const CreateActivity = ({
   token,

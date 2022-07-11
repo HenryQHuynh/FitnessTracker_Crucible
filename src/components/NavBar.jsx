@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import '../css/Navbar.css';
 
-// displayed on the main component.
+// Shown in Main.jsx
 const NavBar = ({ isLoggedIn, setIsLoggedIn, setToken, setUser }) => {
   return (
     <div className="navbar-container">

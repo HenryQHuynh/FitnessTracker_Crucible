@@ -2,7 +2,8 @@
 import React, { useState } from "react";
 import { EditRoutine, SingleActivity, AddActivity } from "./";
 import { deleteRoutine } from "../api";
-// displayed on my routines component
+
+// Shown within the Routines component and then in Main
 const SingleRoutine = ({
   routine,
   token,

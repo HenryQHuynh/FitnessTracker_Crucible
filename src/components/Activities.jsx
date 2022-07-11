@@ -3,6 +3,7 @@ import { getAllActivities } from "../api";
 import { CreateActivity } from "./";
 import "../css/Activities.css";
 
+// Shown in Main.jsx
 const Activities = ({ isLoggedIn, token }) => {
   const [activities, setActivities] = useState([]);
   const [clicked, setClicked] = useState(false);

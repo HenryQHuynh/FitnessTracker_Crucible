@@ -8,7 +8,6 @@ const MyRoutines = ({ isLoggedIn, token, user }) => {
   const [clickedAdd, setClickedAdd] = useState(false);
   const [added, setAdded] = useState(false);
 
-  // set the my routines array with the users' routines, even if changed after the page loads
   useEffect(() => {
     const fetchRoutines = async () => {
       const userRoutines = await getUserRoutines(token, user.username);
@@ -16,7 +15,6 @@ const MyRoutines = ({ isLoggedIn, token, user }) => {
     };
     fetchRoutines();
   }, [setMyRoutines, token, user.username]);
-  // sets the activities for the add activities form
   useEffect(() => {
     const fetchActivities = async () => {
       const allActivities = await getAllActivities();

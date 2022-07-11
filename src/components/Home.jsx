@@ -2,6 +2,7 @@ import React from "react";
 import crucible2 from "../images/crucible2.jpg";
 import "../css/Main.css";
 
+// Shown in Main.jsx as the main image
 const Home = () => {
   return (
     <body>

@@ -10,5 +10,3 @@ ReactDom.render(
   document.getElementById("app")
 );
 
-// Username: Starside
-// Password: Gemini12!

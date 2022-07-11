@@ -3,7 +3,7 @@ import { registerUser } from "../api";
 import "../css/Register.css";
 
 
-// see login component for specific notes
+// Shown in Main.jsx; Similar structure as Login.jsx
 const Register = ({
   setUser,
   username,

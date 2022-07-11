@@ -43,11 +43,12 @@ const Main = () => {
 
   return (
     <div className="main-container">
+
       <header>
         <div className="title-container">
           <h1 className="main-title">Crucible Tracker</h1>
           <a href='https://crucible.report/' target='_blank' rel="noreferrer">
-          <img className="crucibleIcon" src={CrucibleD2} alt="Guardians clashing" />
+            <img className="crucibleIcon" src={CrucibleD2} alt="Guardians clashing" />
           </a>
           {/* Add a Span image here! */}
           {user.username ? <small>Logged in as: {user.username}</small> : null}
@@ -98,7 +99,9 @@ const Main = () => {
           />
         </Route>
       </Switch>
+      
       <Footer />
+
     </div>
   );
 };

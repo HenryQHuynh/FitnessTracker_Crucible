@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { loginUser } from "../api";
 
+// Shown in Main.jsx; Similar structure as Register.jsx
 const Login = ({
   setUser,
   username,
@@ -10,7 +11,6 @@ const Login = ({
   setIsLoggedIn,
   setToken,
 }) => {
-  // the message to be displayed is the message received from the server
   const [message, setMessage] = useState("");
   const [clickedSubmit, setClickedSubmit] = useState(false);
 
@@ -65,4 +65,5 @@ const Login = ({
     </div>
   );
 };
+
 export default Login;

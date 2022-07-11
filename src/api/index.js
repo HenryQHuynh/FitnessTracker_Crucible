@@ -45,7 +45,7 @@ export async function loginUser(username, password) {
   }
 }
 
-// Function to get all publi routines
+// Function to get all public routines
 export async function getPublicRoutines() {
   try {
     // Fetch request to get all public routines
